@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8{
+           width: 200px;
+           height: 200px;
+           border-radius: 200px;
+           display: inline-block;
+           animation-name: abc;
+           animation-duration: 1s;
+           animation-timing-function: linear;
+           animation-iteration-count: infinite; 
+           animation-direction: alternate; 
+        }
+        .b1{
+            background: red;
+            animation-delay: 0;
+        }
+        .b2{
+            background: orange;
+            animation-delay: 0.2s;
+        }
+        .b3{
+            background: blue;
+            animation-delay: 0.3s;
+        }
+        .b4{
+            background: yellow;
+            animation-delay: 0.4s;
+        }
+        .b5{
+            background: green;
+            animation-delay: 0.5s;
+        }
+        .b6{
+            background: lavender;
+            animation-delay: 0.6s;
+        }
+        .b7{
+            background: brown;
+            animation-delay: 0.7s;
+        }
+        .b8{
+            background: black;
+            animation-delay: 0.8s;
+        }
+        @keyframes abc{
+            0%{
+                transform: translateY(0px);
+            }
+            100%{
+                transform: translateY(700px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+        <div class="b1"></div>
+        <div class="b2"></div>
+        <div class="b3"></div>
+        <div class="b4"></div>
+        <div class="b5"></div>
+        <div class="b6"></div>
+        <div class="b7"></div>
+        <div class="b8"></div>
+</html>
